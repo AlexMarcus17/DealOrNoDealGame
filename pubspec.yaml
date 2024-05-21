@@ -1,0 +1,52 @@
+name: dealornodeal
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  animated_text_kit: ^4.2.2
+  cupertino_icons: ^1.0.2
+  flutter_staggered_animations: ^1.1.1
+  circular_reveal_animation: ^2.0.1
+  get_it: ^7.6.0
+  shared_preferences: ^2.2.0
+  page_transition: ^2.0.9
+  provider: ^6.0.5
+  animated_text_lerp: ^1.0.5
+  intl: ^0.18.1
+  lottie: 2.3.2
+  zoom_tap_animation: ^1.1.0
+  google_mobile_ads: ^3.0.0
+  animated_background: ^2.0.0
+  just_audio: ^0.9.34
+  rive: ^0.11.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/others/icon.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/others/
+
+  fonts:
+    - family: Coaster
+      fonts:
+        - asset: assets/fonts/Coaster.ttf
+  
