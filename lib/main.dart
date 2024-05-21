@@ -3,6 +3,8 @@
 import 'package:dealornodeal/providers/gameprovider.dart';
 import 'package:dealornodeal/routes/routegen.dart';
 import 'package:dealornodeal/sound/sound.dart';
+// import 'package:device_preview/device_preview.dart';
+// import 'package:flutter/foundation.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -17,7 +19,13 @@ Future<void> main() async {
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   await MobileAds.instance.initialize();
   await getshared();
-  runApp(MyApp());
+  runApp(
+    // DevicePreview(
+    // enabled: !kReleaseMode,
+    // builder: (context) =>
+    MyApp(),
+    // )
+  );
 }
 
 Future<void> getshared() async {
@@ -41,6 +49,9 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
+        // useInheritedMediaQuery: true,
+        // locale: DevicePreview.locale(context),
+        // builder: DevicePreview.appBuilder,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,

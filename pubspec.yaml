@@ -26,6 +26,7 @@ dependencies:
   animated_background: ^2.0.0
   just_audio: ^0.9.34
   rive: ^0.11.4
+  device_preview: ^1.1.0
 
 dev_dependencies:
   flutter_test:
