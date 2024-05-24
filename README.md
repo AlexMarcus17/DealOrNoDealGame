@@ -15,6 +15,8 @@
 - **Game Rounds**: The game consists of 6 rounds. In each round, the player opens a set number of cases, revealing the amounts inside. These amounts are then eliminated from the game.
 - **Banker's Offer**: After each round, The Banker will call with an offer to buy the player’s case.
 - **Decision Making**: The player can choose to accept the offer or continue opening cases. If all offers are refused, the player will win the amount in their initially chosen case.
+  
+![IMG_7212](https://github.com/AlexMarcus17/DealOrNoDealGame/assets/67654354/d3b4fd69-10d9-47e2-b498-995965c2d570)
 
 ## 🛠️ Tech Stack
 - **Development**: Flutter, Dart
